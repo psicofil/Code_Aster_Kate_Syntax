@@ -39,19 +39,36 @@
 		<list name="commands">
 			<item> exec </item>
 			<item> print </item>
-			<item> LIRE_MAILLAGE </item>
-			<item> DEFI_GROUP </item>
-			<item> DEFI_LIST_REEL </item>
-			<item> AFFE_MODELE </item>
-			<item> DEFI_MATERIAU </item>
-			<item> AFFE_CARA_ELEM </item>
-			<item> AFFE_MATERIAU </item>
-			<item> AFFE_CHAR_MECA </item>
-			<item> MECA_STATIQUE </item>
-			<item> CALC_CHAMP </item>
-			<item> POST_CHAMP </item>
-			<item> IMPR_RESU </item>
-			<item> DEFI_FONCTION </item>
+			<item> FORMAT </item>
+			<item> reuse </item>
+			<item> MAILLAGE </item>
+			<item> ORIE_PEAU_3D </item>
+			<item> GROUP_MA </item>
+			<item> ELAS </item>
+			<item> AFFE </item>
+			<item> MATER </item>
+			<item> TOUT </item>
+			<item> NOM_PARA </item>
+			<item> VALE </item>
+			<item> MODELE </item>
+			<item> DDL_IMPO </item>
+			<item> LIAISON_MAIL </item>
+			<item> PRES_REP </item>
+			<item> INTERVALLE </item>
+			<item> DEFI_LIST </item>
+			<item> FORMULATION </item>
+			<item> FROTTEMENT </item>
+			<item> ZONE </item>
+			<item> CHAM_MATER </item>
+			<item> EXCIT </item>
+			<item> CONTACT </item>
+			<item> INCREMENT </item>
+			<item> NEWTON </item>
+			<item> CONTRAINTE </item>
+			<item> CRITERES </item>
+			<item> FORMAT </item>
+			<item> LANG </item>
+			<item> RESU </item>
 			
 		</list>
 		<list name="flow">
@@ -152,6 +169,23 @@
 			<item> vars </item>
 			<item> xrange </item>
 			<item> zip </item>
+			<item> LIRE_MAILLAGE </item>
+			<item> DEFI_GROUP </item>
+			<item> DEFI_LIST_REEL </item>
+			<item> AFFE_MODELE </item>
+			<item> DEFI_MATERIAU </item>
+			<item> AFFE_CARA_ELEM </item>
+			<item> AFFE_MATERIAU </item>
+			<item> AFFE_CHAR_MECA </item>
+			<item> MECA_STATIQUE </item>
+			<item> CALC_CHAMP </item>
+			<item> POST_CHAMP </item>
+			<item> IMPR_RESU </item>
+			<item> DEFI_FONCTION </item>
+			<item> MODI_MAILLAGE </item>
+			<item> DEFI_LIST_INST </item>
+			<item> DEFI_CONTACT </item>
+			<item> STAT_NON_LINE </item>
 			<item> DEBUT </item>
 			<item> FIN </item>
 		</list>
