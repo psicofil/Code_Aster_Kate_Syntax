@@ -13,7 +13,7 @@
 <!-- v2.06 decorator names can (and often do) contain periods -->
 <!-- v2.07 add support for %prog and co, see bug 142832 -->
 <!-- v2.08 add missing overloaders, new Code_Aster 3 statements, builtins, and keywords -->
-<language name="Code_Aster" version="12" style="python" kateversion="2.4" section="Scientific" extensions="*.comm;*.pyw;SConstruct;SConscript" mimetype="application/x-python;text/x-python" casesensitive="1" author="Michael Bueker" license="">
+<language name="Code_Aster" version="12" style="python" kateversion="2.4" section="Scientific" extensions="*.comm;*.mess;SConstruct;SConscript" mimetype="application/x-python;text/x-python" casesensitive="1" author="Michael Bueker" license="">
 	<highlighting>
 		<list name="prep">
 			<item> import </item>
@@ -39,6 +39,83 @@
 		<list name="commands">
 			<item> exec </item>
 			<item> print </item>
+                        <!--Code_Aster commands -->
+                        <!--Acoustique-->
+                        <item> AFFE_CHAR_ACOU </item>
+                        <!--Dynamics-->
+                        <item> CALC_AMOR_MODAL </item>
+                        <item> CALC_CORR_SSD </item>
+                        <item> CALC_ESSAI </item>
+                        <item> CALC_EUROPLEXUS </item>
+                        <item> CALC_MODES </item>
+                        <item> CALC_MODE_ROTATION </item>
+                        <item> CALC_STABILITE </item>
+                        <item> COMB_SISM_MODAL </item>
+                        <item> DEFI_BASE_MODALE </item>
+                        <item> DEFI_INTERF_DYNA </item>
+                        <item> DEFI_SQUELETTE </item>
+                        <item> DYNA_ALEA_MODAL </item>
+                        <item> DYNA_LINE_HARM </item>
+                        <item> DYNA_LINE_TRAN </item>
+                        <item> DYNA_NON_LINE </item>
+                        <item> DYNA_SPEC_MODAL </item>
+                        <item> DYNA_TRAN_MODAL </item>
+                        <item> DYNA_VIBRA </item>
+                        <item> YNA_VISCO </item>
+                        <item> EXTR_MODE </item>
+                        <!--Functions-->
+                        <item> CALC_FONCTION </item>
+                        <item> CALC_FONC_INTERP </item>
+                        <item> CALC_INTE_SPEC </item>
+                        <item> DEFI_CONSTANTE </item>
+                        <item> DEFI_FONCTION </item>
+                        <item> DEFI_FONC_FLUI </item>
+                        <item> DEFI_LIST_ENTI </item>
+                        <item> DEFI_LIST_FREQ <item> 
+                        <item> DEFI_LIST_INST </item>
+                        <item> DEFI_LIST_REEL </item>
+                        <!--Gestion-->
+			<item> DEBUT </item>
+			<item> FIN </item>
+                        <item> PORSUITE </item>
+                        <!--Impresion Results-->
+			<item> IMPR_RESU </item>
+                        <item> IMPR_TABLE </item>
+                        <item> INFO_RESU </item>
+                        <!--Mesh-->
+			<item> LIRE_MAILLAGE </item>
+                        <item> ASSE_MAILLAGE </item>
+                        <item> CREA_MAILLAGE </item>
+                        <item> MODI_MAILLAGE </item>
+			<item> DEFI_GROUP </item>
+			<item> DEFI_MAILLAGE </item>
+                        <!--MODELISATION-->
+                        <item> AFFE_MODELE </item>
+			<item> DEFI_MATERIAU </item>
+			<item> AFFE_CARA_ELEM </item>
+			<item> AFFE_MATERIAU </item>
+                        <item> DEFI_CONTACT </item>
+                        <!--MECHANIC-->
+                        <item> AFFE_CHAR_MECA </item>
+                        <item> AFFE_CHAR_MECA_C </item>
+                        <item> AFFE_CHAR_MECA_F </item>
+                        <item> AFFE_CHAR_CINE </item>
+                        <item> AFFE_CHAR_CINE_F </item>
+			<item> MECA_STATIQUE </item>
+			<item> STAT_NON_LINE </item>
+                        <!--Post-processing-->
+                        <item> CALC_CHAMP </item>
+                        <item> CALC_CHAMP_ELEM </item>
+			<item> POST_CHAMP </item>                    
+                        <!--Thermal-->
+                        <item> AFFE_CHAR_THER </item>
+                        <item> AFFE_CHAR_THER_F </item>
+                        <item> THER_LINEAIRE </item>
+                        <item> THER_NON_LINE </item>
+                        
+                </list>
+		<list name="keywords">
+                        <!--Code_Aster keywords -->
 			<item> FORMAT </item>
 			<item> reuse </item>
 			<item> MAILLAGE </item>
@@ -69,7 +146,41 @@
 			<item> FORMAT </item>
 			<item> LANG </item>
 			<item> RESU </item>
-			
+                        <item> UNITE </item>
+                        <item> CREA_POI1 </item>
+                        <item> PHENOMENE </item>
+                        <item> MODELISATION </item>
+                        <item> DISCRET_2D </item>
+                        <item> CARA </item>
+                        <item> NOM_GROUP_MA </item>
+                        <item> GROUP_NO </item>
+                        <item> INTERPOL </item>
+                        <item> PROL_DROITE </item>
+                        <item> PROL_GAUCHE </item>
+                        <item> TRACTION </item>
+                        <item> E </item>
+                        <item> NU </item>
+                        <item> RHO </item>
+                        <item> SIGM </item>
+                        <item> ORIE_PEAU_2D </item>
+                        <item> CREA_GROUP_MA </item>
+                        <item> UNION </item>
+			<item> REAC_GEOM </item>
+                        <item> ITER_GEOM_MAXI </item>
+                        <item> GROUP_MA_MAIT </item>
+                        <item> GROUP_MA_ESCL </item>
+                        <item> ALGO_CONT </item>
+                        <item> MECA_IMPO </item>
+                        <item> DX </item>
+                        <item> DY </item>
+                        <item> DZ </item>
+                        <item> DNOR </item>
+                        <item> DRX </item>
+                        <item> DRY </item>
+                        <item> DRZ </item>
+                        <item> JUSQU_A </item>
+                        <item> PAS </item>
+                        <item> ADAPTATION </item>
 		</list>
 		<list name="flow">
 			<item> assert </item>
@@ -169,25 +280,6 @@
 			<item> vars </item>
 			<item> xrange </item>
 			<item> zip </item>
-			<item> LIRE_MAILLAGE </item>
-			<item> DEFI_GROUP </item>
-			<item> DEFI_LIST_REEL </item>
-			<item> AFFE_MODELE </item>
-			<item> DEFI_MATERIAU </item>
-			<item> AFFE_CARA_ELEM </item>
-			<item> AFFE_MATERIAU </item>
-			<item> AFFE_CHAR_MECA </item>
-			<item> MECA_STATIQUE </item>
-			<item> CALC_CHAMP </item>
-			<item> POST_CHAMP </item>
-			<item> IMPR_RESU </item>
-			<item> DEFI_FONCTION </item>
-			<item> MODI_MAILLAGE </item>
-			<item> DEFI_LIST_INST </item>
-			<item> DEFI_CONTACT </item>
-			<item> STAT_NON_LINE </item>
-			<item> DEBUT </item>
-			<item> FIN </item>
 		</list>
 		<list name="specialvars">
 			<item> None </item>
@@ -347,6 +439,7 @@
 				<LineContinue context="CheckForString" attribute="Normal Text"/>
 				<keyword attribute="Preprocessor" String="prep" context="#stay"/>
 				<keyword attribute="Definition Keyword" String="defs" context="#stay"/>
+                                <keyword attribute="Keyword Keyword" String="keywords" context="#stay"/>
 				<keyword attribute="Operator" String="operators" context="#stay"/>
 				<keyword attribute="Command Keyword" String="commands" context="#stay"/>
 				<keyword attribute="Flow Control Keyword" String="flow" context="#stay"/>
@@ -512,6 +605,7 @@
 		<itemDatas>
 			<itemData name="Normal Text" defStyleNum="dsNormal" spellChecking="false"/>
 			<itemData name="Definition Keyword" defStyleNum="dsKeyword" spellChecking="false"/>
+                        <itemData name="Keyword Keyword" defStyleNum="dsKeyword" spellChecking="false"/>
 			<itemData name="Operator" defStyleNum="dsNormal" bold="1" spellChecking="false"/>
 			<itemData name="String Substitution" defStyleNum="dsOthers" color="#0057ae" selColor="#ffffff"  spellChecking="false"/>
 			<itemData name="Command Keyword" defStyleNum="dsKeyword" spellChecking="false"/>
