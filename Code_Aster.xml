@@ -40,6 +40,7 @@
 			<item> exec </item>
 			<item> print </item>
                         <!--Code_Aster commands -->
+			<item> ASSEMBLAGE </item>
                         <!--Acoustique-->
                         <item> AFFE_CHAR_ACOU </item>
                         <!--Dynamics-->
@@ -112,6 +113,7 @@
                         <item> AFFE_CHAR_THER_F </item>
                         <item> THER_LINEAIRE </item>
                         <item> THER_NON_LINE </item>
+			<item> MACR_CARA_POUTRE </item>
                         
                 </list>
 		<list name="keywords">
@@ -122,12 +124,44 @@
 			<item> ORIE_PEAU_3D </item>
 			<item> GROUP_MA </item>
 			<item> ELAS </item>
+			<item> EPAIS </item>
 			<item> AFFE </item>
+			<item> CARA_ELEM </item>
+			<item> CHARGE </item>
+			<item> LIAISON </item>
+			<item> N_INIT </item>
+			<item> BARRE </item>
+			<item> CABLE </item>
+			<item> SOLVEUR </item>
+			<item> METHODE </item>
+			<item> FONC_MULT </item>
+			<item> LIST_INST </item>
+			<item> TOUT_CMP </item>
+			<item> CONCEPT </item>
+			<item> TUYAU_NSEC </item>
+			<item> TUYAU_NCOU </item>
+			<item> COQUE_NCOU </item>
+			<item> VECTEUR </item>
+			<item> NUME_DDL </item>
+			<item> MATR_ASSE </item>
+			<item> MATRICE </item>
+			<item> OPTION </item>
+			<item> CALC_FREQ </item>
+			<item> MATR_RIGI </item>
+			<item> MATR_MASS </item>
+			<item> RESU </item>
 			<item> MATER </item>
 			<item> TOUT </item>
 			<item> NOM_PARA </item>
 			<item> VALE </item>
 			<item> MODELE </item>
+			<item> POUTRE </item>
+			<item> COQUE </item>
+			<item> DEFI_ARC </item>
+			<item> ORIE_ARC </item>
+			<item> RAYON </item>
+			<item> COQUEBORRAR </item>
+			<item> SECTION </item>
 			<item> DDL_IMPO </item>
 			<item> LIAISON_MAIL </item>
 			<item> PRES_REP </item>
@@ -151,6 +185,9 @@
                         <item> MODELISATION </item>
                         <item> DISCRET_2D </item>
                         <item> CARA </item>
+			<item> DISCRET </item>
+			<item> REPERE </item>
+			<item> ORIENTATION </item>
                         <item> NOM_GROUP_MA </item>
                         <item> GROUP_NO </item>
                         <item> INTERPOL </item>
@@ -182,6 +219,13 @@
                         <item> JUSQU_A </item>
                         <item> PAS </item>
                         <item> ADAPTATION </item>
+			<item> INFO </item>
+			<item> ORIG_INER </item>
+			<item> TABLE_CARA </item>
+			<item> NOM </item>
+			<item> GROUP_MA_BORD </item>
+			<item> NOM_SEC </item>
+			
 		</list>
 		<list name="flow">
 			<item> assert </item>
