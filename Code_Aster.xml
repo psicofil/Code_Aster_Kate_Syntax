@@ -61,6 +61,7 @@
                         <item> DYNA_NON_LINE </item>
                         <item> DYNA_SPEC_MODAL </item>
                         <item> DYNA_TRAN_MODAL </item>
+			<item> POST_ELEM </item>
                         <item> DYNA_VIBRA </item>
                         <item> YNA_VISCO </item>
                         <item> EXTR_MODE </item>
@@ -72,7 +73,7 @@
                         <item> DEFI_FONCTION </item>
                         <item> DEFI_FONC_FLUI </item>
                         <item> DEFI_LIST_ENTI </item>
-                        <item> DEFI_LIST_FREQ </item> 
+                        <item> DEFI_LIST_FREQ </item>
                         <item> DEFI_LIST_INST </item>
                         <item> DEFI_LIST_REEL </item>
                         <!--Gestion-->
@@ -107,18 +108,33 @@
                         <!--Post-processing-->
                         <item> CALC_CHAMP </item>
                         <item> CALC_CHAMP_ELEM </item>
-			<item> POST_CHAMP </item>                    
+			<item> POST_RELEVE_T </item>
+			<item> POST_CHAMP </item>
+			<item> CREA_CHAMP </item>
+			<item> CREA_RESU </item>
                         <!--Thermal-->
                         <item> AFFE_CHAR_THER </item>
                         <item> AFFE_CHAR_THER_F </item>
                         <item> THER_LINEAIRE </item>
                         <item> THER_NON_LINE </item>
 			<item> MACR_CARA_POUTRE </item>
-                        
+
                 </list>
 		<list name="keywords">
                         <!--Code_Aster keywords -->
 			<item> FORMAT </item>
+			<item> ACTION </item>
+			<item> INTITULE </item>
+			<item> NOM_CHAM </item>
+			<item> TOUT_ORDRE </item>
+			<item> RESULTANTE </item>
+			<item> MOMENT </item>
+			<item> POINT </item>
+			<item> OPERATION </item>
+			<item> THER </item>
+			<item> THER_ORTH </item>
+			<item> THER_NL </item>
+			<item> LAMBDA </item>
 			<item> reuse </item>
 			<item> MAILLAGE </item>
 			<item> ORIE_PEAU_3D </item>
@@ -136,8 +152,14 @@
 			<item> METHODE </item>
 			<item> FONC_MULT </item>
 			<item> LIST_INST </item>
+			<item> MASS_INER </item>
+			<item> TABLE </item>
 			<item> TOUT_CMP </item>
+			<item> FORMAT_R </item>
 			<item> CONCEPT </item>
+			<item> COULOMB </item>
+			<item> NMAX_FREQ </item>
+			<item> FREQ </item>
 			<item> TUYAU_NSEC </item>
 			<item> TUYAU_NCOU </item>
 			<item> COQUE_NCOU </item>
@@ -147,6 +169,8 @@
 			<item> MATRICE </item>
 			<item> OPTION </item>
 			<item> CALC_FREQ </item>
+			<item> TYPE_RACCORD </item>
+			<item> DISTANCE_MAX </item>
 			<item> MATR_RIGI </item>
 			<item> MATR_MASS </item>
 			<item> RESU </item>
@@ -198,6 +222,7 @@
                         <item> E </item>
                         <item> NU </item>
                         <item> RHO </item>
+			<item> ALPHA </item>
                         <item> SIGM </item>
                         <item> ORIE_PEAU_2D </item>
                         <item> CREA_GROUP_MA </item>
@@ -226,7 +251,57 @@
 			<item> NOM </item>
 			<item> GROUP_MA_BORD </item>
 			<item> NOM_SEC </item>
-			
+			<item> FLUX_NOEU </item>
+			<item> FLUX_ELGA </item>
+			<item> FLUX_ELNO </item>
+			<item> THERMIQUE </item>
+			<item> FLUN </item>
+			<item> COEF_H </item>
+			<item> TEMP_EXT </item>
+			<item> FLUX_REP </item>
+			<item> ECHANGE </item>
+			<item> COMP_INCR </item>
+			<item> RELATION </item>
+			<item> DEFORMATION </item>
+			<item> REAC_INCR </item>
+			<item> REAC_ITER </item>
+			<item> CONVERGENCE </item>
+			<item> COMP_ELAS </item>
+			<item> ECRO_LINE </item>
+			<item> D_SIGM_EPSI </item>
+			<item> SY </item>
+			<item> ETAT_INIT </item>
+			<item> PRECISION </item>
+			<item> PROL_ZERO </item>
+			<item> TYPE_CHAM </item>
+			<item> NOM_CMP </item>
+			<item> FORCE_FACE </item>
+			<item> FX </item>
+			<item> FY </item>
+			<item> FZ </item>
+			<item> PRE_SIGM </item>
+			<item> PRE_EPSI </item>
+			<item> EPYY </item>
+			<item> EPXX </item>
+			<item> EPZZ </item>
+			<item> LIAISON_GROUP </item>
+			<item> COEF_IMPO </item>
+			<item> COEF_MULT_1 </item>
+			<item> COEF_MULT_2 </item>
+			<item> DDL_1 </item>
+			<item> DDL_2 </item>
+			<item> GROUP_MA_1 </item>
+			<item> GROUP_MA_2 </item>
+			<item> CREA_GROUP_NO </item>
+			<item> COEF_CONT </item>
+			<item> AFFE_VARC </item>
+			<item> EVOL </item>
+			<item> NOM_VARC </item>
+			<item> VALE_REF </item>
+			<item> CHAM_GD </item>
+			<item> TYPE_RESU </item>
+
+
 		</list>
 		<list name="flow">
 			<item> assert </item>
